@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr class="nombres">
+                <td>Nombre</td>
+                <td>Ronda1</td>
+                <td>Ronda2</td>
+                <td>Ronda3</td>
+                <td>Total</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td id="jugador1"></td>
+                <td id="j1ronda1">0</td>
+                <td id="j1ronda2">0</td>
+                <td id="j1ronda3">0</td>
+                <td id="j1total">0</td>
+                <td><button onclick="lanzar(1)">Lanzar</button><button onclick="omitir(1)" id="boton-oculto1" class="btn-oculto">Omitir turno</button></td>
+                
+            </tr>
+            <tr>
+                <td id="jugador2"></td>
+                <td id="j2ronda1">0</td>
+                <td id="j2ronda2">0</td>
+                <td id="j2ronda3">0</td>
+                <td id="j2total">0</td>
+                <td><button onclick="lanzar(2)">Lanzar</button><button onclick="omitir(2)" id="boton-oculto2" class="btn-oculto">Omitir turno</button></td>
+            </tr>
+        </table>
+    </div>  
+    <script src="juego.js"></script>
+</body>
+</html>
