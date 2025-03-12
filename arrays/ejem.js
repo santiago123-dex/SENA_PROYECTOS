@@ -58,3 +58,9 @@ let frutas2 = ["Manzana", "Mandarina", "Pera", "Uva", "Kiwi"]
 // el splice borra a partir de los valores, en este ejemplo el primer valor determina el indice y el segundo el numero de valores que borra
 frutas2.splice(0, 2)
 console.log(frutas2)
+
+// Listas con .map
+
+const nombre = ["jose", "ana", "vivi", "camila"]
+
+const array = nombre.map(n => console.log(n))// el map ademas de transformar puede organizar en lista 
