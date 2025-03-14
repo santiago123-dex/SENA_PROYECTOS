@@ -64,3 +64,7 @@ console.log(frutas2)
 const nombre = ["jose", "ana", "vivi", "camila"]
 
 const array = nombre.map(n => console.log(n))// el map ademas de transformar puede organizar en lista 
+
+
+// mapa 
+

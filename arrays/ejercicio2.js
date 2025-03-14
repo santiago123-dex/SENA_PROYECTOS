@@ -5,8 +5,12 @@ let registro = []
 function menu(){
     let opcion 
     do{
-        opcion = Number(prompt("Que accion desea hacer? \n1 depositar \n2 retirar \n3 consultar saldo \n4 "))
+        opcion = Number(prompt("Que accion desea hacer? \n1 depositar \n2 retirar \n3 consultar saldo \n4 Registro de transacciones \n5 Salir"))
         
+        if(opcion < 1 || opcion > 5){
+            alert("Opción incorrecta")
+            continue
+        }
         switch(opcion){
             case 1:
                 depositar()
@@ -19,6 +23,10 @@ function menu(){
                 break
             case 4:
                 mostrarRegistros()
+                break
+            case 5:
+                alert("Saliendo del menu")
+                window.location.href = "index.html"
                 break
         }
     }while (opcion !== 5)
