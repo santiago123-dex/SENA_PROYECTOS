@@ -9,6 +9,7 @@ nombre[2] = "Santi"
 //Propiedades length
 
 let nombre1 = ["Juan", "Jose", "Nelson"] // array tipo String
+console.log(nombre1)
 // Se agrega en nombre de ultimo en este caso sería despues de Nelson
 nombre1[nombre1.length] = "Ana"
 // En este caso Ana reemplaza a Jose
@@ -61,9 +62,9 @@ console.log(frutas2)
 
 // Listas con .map
 
-const nombre = ["jose", "ana", "vivi", "camila"]
+const nombre7 = ["jose", "ana", "vivi", "camila"]
 
-const array = nombre.map(n => console.log(n))// el map ademas de transformar puede organizar en lista 
+const array = nombre7.map(n => console.log(n))// el map ademas de transformar puede organizar en lista 
 
 
 // mapa 
