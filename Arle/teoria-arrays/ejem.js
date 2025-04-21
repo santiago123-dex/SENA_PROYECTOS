@@ -69,3 +69,4 @@ const array = nombre7.map(n => console.log(n))// el map ademas de transformar pu
 
 // mapa 
 
+console.log(`${Math.floor(5.7)} ${Math.ceil(5.2)} ${Math.round(5.5)}`)

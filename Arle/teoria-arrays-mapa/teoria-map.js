@@ -1,4 +1,4 @@
-// Crear un Map
+ss// Crear un Map
 let frutas = new Map();
 
 // Agregar valores con set(), el primero valor es la clave y el segundo es el valor
